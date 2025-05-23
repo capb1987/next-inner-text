@@ -1,0 +1,32 @@
+{
+  "tareas": [
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "titulo": "Diseñar interfaz de usuario",
+      "descripcion": "Crear wireframes para la nueva aplicación móvil",
+      "estado": "in-progress",
+      "asignacion": "user"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "titulo": "Revisar documentación API",
+      "descripcion": "Verificar que la documentación de la API esté completa y sea clara",
+      "estado": "pending",
+      "asignacion": "user"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "titulo": "Implementar autenticación JWT",
+      "descripcion": "Desarrollar el sistema de autenticación usando JSON Web Tokens",
+      "estado": "pending",
+      "asignacion": "admin"
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8g",
+      "titulo": "Testear funcionalidad de carrito",
+      "descripcion": "Realizar pruebas de integración para el módulo de carrito de compras",
+      "estado": "complete",
+      "asignacion": "tester"
+    }
+  ]
+}
