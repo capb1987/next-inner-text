@@ -1,9 +1,17 @@
 App de tareas
 ![alt text](Task-Manager-Editar-Tarea.png) ![alt text](Task-Manager-Crear-Tarea.png) ![alt text](Task-Manager-Index.png)
 
-debes instalar las dependencias
+Es un proyecto de ejemplo para la prueba tecnica de la empresa es la primera vez que se ha usado next.js y es un gran reto para aprender y practicar. Tiene una gran documentación y vale la pena que en verdad dar lo mejor. Me falta mucho pero estoy siempre en dispoción para aprender y mejorar.
 
+Este proyecto es un ejemplo de como se puede crear una aplicación de tareas con next.js y react. Está hecho con typescript y usa zod para validar los datos enviados. También usa redux para manejar los datos y json-server para el backend.
+
+Indicaciones:
+
+Primero debes instalar las dependencias
+
+```
 npm install
+```
 
 Agregar la variable de entorno con la siguiente url
 
@@ -33,7 +41,7 @@ Paginas:
 
 - Home
 
-Rutas:
+Rutas manejadas por next.js:
 
 - /
 - /tareas/add
@@ -75,3 +83,5 @@ types:
   - DraftTarea
   - Tareas
   - User
+
+Espero les guste este proyecto para la prueba tecnica de la empresa.
