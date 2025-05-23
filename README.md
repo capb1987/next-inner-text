@@ -16,9 +16,17 @@ para ver el proyecto completo visita el siguiente link:
 
 tiene los siguientes componentes:
 
-- TareaCard
+client
+
+- RadioButtonStatus
+- SelectUserAssigned
 - TareaList
 - TareaForm (Formulario para crear tareas)
+- ProviderRedux
+
+server
+
+- TareaCard
 
 Paginas:
 
@@ -33,3 +41,36 @@ Rutas:
 schemas:
 
 - index.ts
+
+Redux:
+
+- store
+- tasksSlice
+
+utils:
+
+- arrayStateTareas
+- arrayUsers
+- changeColor
+- getNames
+
+data:
+
+- getTareas
+
+db:
+
+- db.ts
+
+ui:
+
+- fonts
+
+types:
+
+- index.ts
+  algunos tipados son:
+  - Tarea
+  - DraftTarea
+  - Tareas
+  - User

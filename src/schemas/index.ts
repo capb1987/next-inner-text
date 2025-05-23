@@ -18,7 +18,3 @@ export const tareasSchemas = z.array(tareaSchema);
 export const jsonSchema = z.object({
   tareas: tareasSchemas,
 });
-
-export const envSchema = z.object({
-  ENV_API_SERVER: z.string(),
-});
