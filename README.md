@@ -1,4 +1,5 @@
 App de tareas
+![alt text](Task-Manager-Editar-Tarea.png) ![alt text](Task-Manager-Crear-Tarea.png) ![alt text](Task-Manager-Index.png)
 
 debes instalar las dependencias
 
